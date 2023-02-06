@@ -1,0 +1,6 @@
+C:\Users\Arthur\Documents\Livre PostGIS\Exercices\Exercices\Données\Raster\IGN - ORTHO HR\74-2020-0985-6535-LA93-0M20-E080.jp2
+C:\Users\Arthur\Documents\Livre PostGIS\Exercices\Exercices\Données\Raster\IGN - ORTHO HR\74-2020-0985-6540-LA93-0M20-E080.jp2
+C:\Users\Arthur\Documents\Livre PostGIS\Exercices\Exercices\Données\Raster\IGN - ORTHO HR\74-2020-0990-6535-LA93-0M20-E080.jp2
+C:\Users\Arthur\Documents\Livre PostGIS\Exercices\Exercices\Données\Raster\IGN - ORTHO HR\74-2020-0990-6540-LA93-0M20-E080.jp2
+C:\Users\Arthur\Documents\Livre PostGIS\Exercices\Exercices\Données\Raster\IGN - ORTHO HR\74-2020-0995-6535-LA93-0M20-E080.jp2
+C:\Users\Arthur\Documents\Livre PostGIS\Exercices\Exercices\Données\Raster\IGN - ORTHO HR\74-2020-0995-6540-LA93-0M20-E080.jp2

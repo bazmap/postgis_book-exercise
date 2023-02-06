@@ -1,0 +1,163 @@
+<VRTDataset rasterXSize="75000" rasterYSize="50000">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["RGF93 / Lambert-93",GEOGCS["RGF93",DATUM["Reseau_Geodesique_Francais_1993_v1",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6171"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4171"]],PROJECTION["Lambert_Conformal_Conic_2SP"],PARAMETER["latitude_of_origin",46.5],PARAMETER["central_meridian",3],PARAMETER["standard_parallel_1",49],PARAMETER["standard_parallel_2",44],PARAMETER["false_easting",700000],PARAMETER["false_northing",6600000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","2154"]]</SRS>
+  <GeoTransform>  9.8500000000000000e+05,  1.9999999999999998e-01,  0.0000000000000000e+00,  6.5400000000000000e+06,  0.0000000000000000e+00, -1.9999999999999998e-01</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">114.31743982319</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">73.846532916705</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Red</ColorInterp>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0985-6535-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="0" yOff="25000" xSize="25000" ySize="25000" />
+    </SimpleSource>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0985-6540-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+    </SimpleSource>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0990-6535-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="25000" yOff="25000" xSize="25000" ySize="25000" />
+    </SimpleSource>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0990-6540-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="25000" yOff="0" xSize="25000" ySize="25000" />
+    </SimpleSource>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0995-6535-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="50000" yOff="25000" xSize="25000" ySize="25000" />
+    </SimpleSource>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0995-6540-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="50000" yOff="0" xSize="25000" ySize="25000" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">124.81472278045</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">69.045402199774</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Green</ColorInterp>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0985-6535-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="0" yOff="25000" xSize="25000" ySize="25000" />
+    </SimpleSource>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0985-6540-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+    </SimpleSource>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0990-6535-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="25000" yOff="25000" xSize="25000" ySize="25000" />
+    </SimpleSource>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0990-6540-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="25000" yOff="0" xSize="25000" ySize="25000" />
+    </SimpleSource>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0995-6535-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="50000" yOff="25000" xSize="25000" ySize="25000" />
+    </SimpleSource>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0995-6540-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="50000" yOff="0" xSize="25000" ySize="25000" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">115.6106965535</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">75.808414988102</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Blue</ColorInterp>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0985-6535-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="0" yOff="25000" xSize="25000" ySize="25000" />
+    </SimpleSource>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0985-6540-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+    </SimpleSource>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0990-6535-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="25000" yOff="25000" xSize="25000" ySize="25000" />
+    </SimpleSource>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0990-6540-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="25000" yOff="0" xSize="25000" ySize="25000" />
+    </SimpleSource>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0995-6535-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="50000" yOff="25000" xSize="25000" ySize="25000" />
+    </SimpleSource>
+    <SimpleSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">74-2020-0995-6540-LA93-0M20-E080.jp2</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="25000" RasterYSize="25000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25000" ySize="25000" />
+      <DstRect xOff="50000" yOff="0" xSize="25000" ySize="25000" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>

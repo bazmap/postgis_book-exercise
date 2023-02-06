@@ -1,0 +1,323 @@
+<VRTDataset rasterXSize="7000" rasterYSize="8000">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["RGF93 / Lambert-93",GEOGCS["RGF93",DATUM["Reseau_Geodesique_Francais_1993_v1",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6171"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4171"]],PROJECTION["Lambert_Conformal_Conic_2SP"],PARAMETER["latitude_of_origin",46.5],PARAMETER["central_meridian",3],PARAMETER["standard_parallel_1",49],PARAMETER["standard_parallel_2",44],PARAMETER["false_easting",700000],PARAMETER["false_northing",6600000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","2154"]]</SRS>
+  <GeoTransform>  9.7999750000000000e+05,  5.0000000000000000e+00,  0.0000000000000000e+00,  6.5600025000000000e+06,  0.0000000000000000e+00, -5.0000000000000000e+00</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">4058.9899902344</MDI>
+      <MDI key="STATISTICS_MEAN">1996.1494673093</MDI>
+      <MDI key="STATISTICS_MINIMUM">668.11999511719</MDI>
+      <MDI key="STATISTICS_STDDEV">752.13026839386</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">51.89</MDI>
+    </Metadata>
+    <NoDataValue>-99999</NoDataValue>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0980_6530_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="6000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0980_6535_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="5000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0980_6540_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="4000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0980_6545_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="3000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0985_6525_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="1000" yOff="7000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0985_6530_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="1000" yOff="6000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0985_6535_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="1000" yOff="5000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0985_6540_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="1000" yOff="4000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0985_6545_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="1000" yOff="3000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0985_6550_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="1000" yOff="2000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0985_6555_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="1000" yOff="1000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0990_6525_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="2000" yOff="7000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0990_6530_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="2000" yOff="6000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0990_6535_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="2000" yOff="5000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0990_6540_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="2000" yOff="4000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0990_6545_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="2000" yOff="3000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0990_6550_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="2000" yOff="2000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0990_6555_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="2000" yOff="1000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0995_6530_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="3000" yOff="6000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0995_6535_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="3000" yOff="5000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0995_6540_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="3000" yOff="4000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0995_6545_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="3000" yOff="3000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0995_6550_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="3000" yOff="2000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0995_6555_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="3000" yOff="1000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_0995_6560_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="3000" yOff="0" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_1000_6535_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="4000" yOff="5000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_1000_6540_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="4000" yOff="4000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_1000_6545_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="4000" yOff="3000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_1000_6550_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="4000" yOff="2000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_1000_6555_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="4000" yOff="1000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_1000_6560_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="4000" yOff="0" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_1005_6535_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="5000" yOff="5000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_1005_6540_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="5000" yOff="4000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_1005_6545_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="5000" yOff="3000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_1005_6550_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="5000" yOff="2000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_1005_6555_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="5000" yOff="1000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_1005_6560_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="5000" yOff="0" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_1010_6540_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="6000" yOff="4000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_1010_6545_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="6000" yOff="3000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_1010_6550_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float64" BlockXSize="1000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="6000" yOff="2000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="bilinear">
+      <SourceFilename relativeToVRT="1">RGEALTI_FXX_1010_6555_MNT_LAMB93_IGN69.asc</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="6000" yOff="1000" xSize="1000" ySize="1000" />
+      <NODATA>-99999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
