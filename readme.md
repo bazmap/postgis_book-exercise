@@ -1,11 +1,18 @@
-# PostGIS - Tous les ingrédient pour concocter un SIG sur de bonnes base | Jeux de données d'exercice
+# PostGIS - Tous les ingrédient pour concocter un SIG sur de bonnes bases | Jeux de données d'exercice
 
 ## Introduction
-Les données fournies ici sont destinées à être utilisées pour réalisation des exercices du livre _PostGIS - Tous les ingrédient pour concocter un SIG sur de bonnes base_.
+Les données fournies ici sont destinées à être utilisées pour réalisation des exercices du livre _PostGIS - Tous les ingrédient pour concocter un SIG sur de bonnes bases_.
 
-🔗 Les liens :
-- 📖 Toutes les infos sur le livre : <https://book.postgis.app/>
-- 🛒 Pour commander le livre : <https://www.d-booker.fr/bases-de-donnees/790-1325-postgis.html>
+\---------------------------------------------------------  
+--- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📗 Toutes les infos sur le livre 📗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ---  
+--- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔗<https://book.postgis.app/>🔗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ---  
+\---------------------------------------------------------
+
+\-------------------------------------------------------------------------------------  
+--- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒 Pour commander le livre 🛒&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---  
+--- 🔗<https://www.d-booker.fr/bases-de-donnees/790-1325-postgis.html> ---   
+\-------------------------------------------------------------------------------------  
+
 
 
 ## Détail des données
